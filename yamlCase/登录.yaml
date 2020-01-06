@@ -1,0 +1,23 @@
+输入正确的用户名、密码:
+  account : 18042477732
+  password : 18042477732!@#A
+  assert : 左中右出行
+
+
+输入正确的用户名、错误密码:
+  account : 18042477732
+  password : 18042477732!@#
+  assert : 用户名或密码错误
+
+不输入用户名、密码:
+  account : ""
+  password : ""
+  assert : 请输入账号
+
+输入正确的用户名、不输入密码:
+  account : 18042477732
+  password : ""
+  assert : 密码不能为空
+
+
+
